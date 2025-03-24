@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "IMFell";
+    src: url("./IMFellGreatPrimer-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Hepta";
+    src: url("./HeptaSlab-VariableFont_wght.ttf");
+}
+
+#title {
+    font-size: 1.5em;
+    font-weight: 200;
+    font-family: "IMFell", serif;
+    text-align: center;
+}
+
+
+.navbar {
+    display: flex;
+    font-family: "IMFell", serif;
+    font-weight: 300;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul {
+    list-style: none;
+    display: contents;
+}
+
+li {
+    display: inline;
+    font-size: .9em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    border: none;
+    height: .2em;
+    background-color: black;
+    border-radius: 2em;
+}
+
+.content {
+    font-family: "Hepta", serif;
+    font-size: .9em;
+}
+
+tr {
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: mediumturquoise;
+
+}
+
+/* Media query for devices larger than 400px */
+@media(min-width:400px) {
+    html {
+        background-color: mintcream;
+    }
+
+    tr:nth-child(odd) {
+        background-color: mediumaquamarine;
+    }
+
+    .content {
+        font-size: 1em;
+    }
+
+    li {
+        font-size: 1.1em;
+    }
+    
+}
+
+/* Media query for devices larger than 550px */
+@media(min-width:550px) {
+    html {
+        background-color: ivory;
+    }
+
+    tr:nth-child(odd) {
+        background-color: darkseagreen;
+    }
+
+    .content {
+        font-size: 1.1em;
+    }
+    
+    li {
+        font-size: 1.2em;
+    }
+
+}
+
+/* Media query for devices larger than 750px */
+@media(min-width:750px) {
+    html {
+        background-color: honeydew;
+    }
+
+    tr:nth-child(odd) {
+        background-color: aquamarine;
+    }
+
+    .navbar {
+        font-size: 1.5em;
+    }
+   
+    .title {
+        font-size: 1.8em;
+    }
+
+    .content {
+        font-size: 1.4em;
+    }
+}
+
